@@ -1,16 +1,32 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔍 Topic Wave Filter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React app to **search and filter educational topics** using a search bar and tag-based dropdown. Built with **Vite**, **Tailwind CSS**, and **Lucide icons**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Real-time search functionality
+- 🏷️ Filter topics by tags (e.g., Beginner, AI, JavaScript)
+- 📱 Responsive and modern UI
+- ⚛️ Built with React and Vite
+- 🎨 Styled using Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📂 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Search-Bar-Project
->>>>>>> 761e34278dc4b6e9c6c2f50e1689bb54a99036f5
+- The app displays a list of topics.
+- Users can **type a keyword** to search by topic name.
+- Users can also **select a tag** (like "AI", "Beginner", "Cloud", etc.) to filter topics.
+- The list updates **dynamically** based on search input and selected tag.
+
+## 🛠️ Tech Stack
+
+- **React** – JavaScript library for building UI
+- **Vite** – Fast development build tool
+- **Tailwind CSS** – Utility-first CSS framework
+- **Lucide-react** – Icon library used for the search icon
+
+## 📦 Getting Started
+
+1. Clone the project:
+   ```bash
+   git clone https://github.com/your-username/topic-wave-filter.git
+   cd topic-wave-filter
